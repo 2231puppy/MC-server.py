@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     description = fh.read()
 
 setuptools.setup(
-    name="test-package",
+    name="mc-server.py",
     version="0.0.1",
     author="2231puppy",
     author_email="micha@2231puppy.tech",
-    packages=["mc-server.py"],
+    packages=["mc-server-py"],
     description="A utility to create a Minecraft server from a config file.",
     long_description=description,
     long_description_content_type="text/markdown",
